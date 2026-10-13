@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1000 370" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Experience — independent security research, automotive and embedded research, cybersecurity training, self-taught offensive security">
+  <style>
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .a1{animation-delay:.15s} .a2{animation-delay:.35s} .a3{animation-delay:.55s} .a4{animation-delay:.75s}
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+      :root { --bone: #000000; --muted: #000000; --dim: #000000; --rule: #000000; --accent: #000000; --node-bg: #FFFFFF; --core-bg: #FFFFFF; --ghost: #000000; }
+  </style>
+
+  <line x1="120" y1="10" x2="120" y2="360" stroke="var(--rule)" stroke-width="1" opacity=".4"/>
+
+  <g class="rise a1">
+    <text class="mono" x="48" y="42"  font-size="12" fill="var(--accent)" letter-spacing="2">2026</text>
+    <text class="mono" x="136" y="42"  font-size="15" fill="var(--bone)">Independent Security Research · Offensive Security &amp; Reverse Engineering · Kochi</text>
+    <text class="mono" x="136" y="68"  font-size="14" fill="var(--muted)">web &amp; network VAPT · mobile / Android security · firmware &amp; binary analysis</text>
+    <text class="mono" x="136" y="90"  font-size="14" fill="var(--muted)">research lab on Kali Linux · Hack The Box · CTF Apocalypse 2025</text>
+  </g>
+
+  <g class="rise a2">
+    <text class="mono" x="48" y="138" font-size="12" fill="var(--accent)" letter-spacing="2">2025</text>
+    <text class="mono" x="136" y="138" font-size="15" fill="var(--bone)">Automotive &amp; Embedded Security · Self-Directed Research</text>
+    <text class="mono" x="136" y="164" font-size="14" fill="var(--muted)">CAN bus / UDS attack-surface study</text>
+    <text class="mono" x="136" y="186" font-size="14" fill="var(--muted)">firmware reverse engineering · fault injection &amp; side-channel concepts</text>
+  </g>
+
+  <g class="rise a3">
+    <text class="mono" x="48" y="234" font-size="12" fill="var(--accent)" letter-spacing="2">2024</text>
+    <text class="mono" x="136" y="234" font-size="15" fill="var(--bone)">Cybersecurity Training · CEH &amp; CPENT AI</text>
+    <text class="mono" x="136" y="260" font-size="14" fill="var(--muted)">ethical hacking fundamentals · Linux &amp; privilege escalation</text>
+    <text class="mono" x="136" y="282" font-size="14" fill="var(--muted)">Hack The Box machines · capture-the-flag practice</text>
+  </g>
+
+  <g class="rise a4">
+    <text class="mono" x="48" y="330" font-size="12" fill="var(--accent)" letter-spacing="2">2022 –</text>
+    <text class="mono" x="136" y="330" font-size="15" fill="var(--bone)">Offensive Security · Self-Taught Track</text>
+    <text class="mono" x="136" y="356" font-size="14" fill="var(--muted)">foundational pentesting · Python &amp; Bash tooling · Kali Linux lab</text>
+  </g>
+</svg>
